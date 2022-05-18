@@ -1,0 +1,22 @@
+{
+  "name": "Static-Demo-01",
+  "jest": {
+    "preset": "jest-puppeteer"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "https://github.com/NIC-Brian-Org/Static-Demo-01.git",
+  "author": "Brian Koehler <brian.koehler@nic.bc.ca>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0",
+    "jest-puppeteer": "^6.1.0",
+    "puppeteer": "^14.1.0"
+  }
+}
